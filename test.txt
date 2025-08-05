@@ -1,0 +1,52 @@
+https://github.com/ashut0shj/alemeno-assignment
+
+register 
+
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "age": 30,
+    "monthly_income": 50000,
+    "phone_number": "1234567890"
+}
+
+
+Loan Eligibility
+
+{
+    "customer_id": 1,
+    "loan_amount": 100000,
+    "interest_rate": 10.5,
+    "tenure": 12
+}
+
+
+Create Loan
+
+{
+    "customer_id": 1,
+    "loan_amount": 100000,
+    "interest_rate": 10.5,
+    "tenure": 12
+}
+
+
+View Customer Loans
+
+[
+    {
+        "loan_id": 7798,
+        "loan_amount": "900000.00",
+        "interest_rate": "17.92",
+        "monthly_installment": "39978.00",
+        "emis_paid_on_time": 12,
+        "start_date": "2023-01-15",
+        "end_date": "2024-01-15",
+        "is_active": true,
+        "repayments_left": 0
+    }
+]
+
+
+http://localhost:8000/api/view-loan/1/
+http://localhost:8000/api/view-loan/7798/
